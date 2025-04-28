@@ -181,12 +181,12 @@
 ////////////////////////////////////////////
 // Anonymous function
 
-// let functionvVariable=function(){
-//     console.log("Not so sercret thought ")
-// }
-// function doFlexStuff(executeStuff){
-//     executeStuff();
-//     console.log("Inside do flexible stuff");
-// }
-// doFlexStuff(functionvVariable)
+let functionvVariable=function(){
+    console.log("Not so sercret thought ")
+}
+function doFlexStuff(executeStuff){
+    executeStuff();
+    console.log("Inside do flexible stuff");
+}
+doFlexStuff(functionvVariable)
 
